@@ -13,7 +13,7 @@ picture: assets/images/profile.jpg
 # and specify source (external or local).
 resume: true
 resume-external: false
-resume-url: https://google.com/?q=my+resume
+resume-url: https://francescopenasa.github.io/files/eng_cv.pdf
 
 url: https://francescopenasa.github.io/
 # your url: https://USERNAME.github.io
@@ -79,11 +79,11 @@ pagination:
   permalink: "/:num/" # pagination link that will be appended
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+projects: false
 
-# if you don't need "about" or "blog", comment them out below
+# if you don't need "." or "blog", comment them out below
 about: true
-curriculum: true
+blog: false
 
 # do you want to show the "read time" of the posts?
 read-time: true
