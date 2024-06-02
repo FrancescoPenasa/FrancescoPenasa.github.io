@@ -1,14 +1,10 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './Home.css'
 import Nav from './components/Nav'
 import Button from './components/Button'
 import Footer from './components/Footer'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function Home() {
   const [showNavColumn, setShowNavColumn] = useState(false);
 
   const handleMainClick = () => {
@@ -31,5 +27,3 @@ function App() {
     </>
   )
 }
-
-export default App

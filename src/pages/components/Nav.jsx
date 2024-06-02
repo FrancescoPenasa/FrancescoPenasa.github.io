@@ -1,3 +1,5 @@
+import { Outlet, Link } from "react-router-dom";
+
 export default function Nav({ showNavColumn, setshowNavColumn}) {   
     const handleNavColumn = () => {
         setshowNavColumn(!showNavColumn)
@@ -30,8 +32,8 @@ export default function Nav({ showNavColumn, setshowNavColumn}) {
                 {/* pages */}
                 <div className='hidden lg:block'> {/* responsive */}
                     <div className=' flex items-center gap-10'>
-                        <a className="text-xl font-base" href="/#">Home</a>
-                        <a className="text-xl font-base" href="/about">About</a>
+                        <Link className="text-xl font-base" to="/">Home</Link>
+                        <Link className="text-xl font-base" to="/about">About</Link>
                         <a className="text-xl font-base" href="/projects">Projects</a>
                         <a className="text-xl font-base" href="/learning">Learning</a>
                     </div>
@@ -59,16 +61,16 @@ export default function Nav({ showNavColumn, setshowNavColumn}) {
         <aside className="lg:hidden">
             <div className='fixed left-0 w-[50%] sm:w-[45%] md:w-[40%] bg-yellow-50 text-black h-full border-r border-r-gray-900'>
                 <ul className='pt-12 uppercase m-5 bg'>
-                    <a className="text-xl w-full font-base p-1 items-center" href="/#">
+                    <Link className="text-xl w-full font-base p-1 items-center" to="/#">
                         <li className='p-3 hover:bg-slate-600 hover:text-white hover:rounded '>
                             Home
                         </li>
-                    </a>
-                    <a className="text-xl w-full font-base p-1" href="/about">
+                    </Link>
+                    <Link className="text-xl w-full font-base p-1" to="/about">
                         <li className='p-3 hover:bg-slate-600 hover:text-white hover:rounded '>
                             About
                         </li>
-                    </a>
+                    </Link>
                     <a className="text-xl w-full font-base p-1" href="/projects">
                         <li className='p-3 hover:bg-slate-600 hover:text-white hover:rounded '>
                             Projects
