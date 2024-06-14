@@ -4,6 +4,17 @@ export default function Nav({ showNavColumn, setshowNavColumn}) {
     const handleNavColumn = () => {
         setshowNavColumn(!showNavColumn)
     }
+
+    function getPages() {
+        return [
+            { name: "Home", path: "/" },
+            { name: "About", path: "/about" },
+            { name: "Resume / CV", path: "/resume" },
+            { name: "Projects", path: "/projects" },
+            { name: "Teaching", path: "/teaching" },
+            { name: "Contact", path: "/contact" }
+        ]
+    }
     
     return <>
         <nav className="fixed left-0 top-0 z-20 mx-auto h-[88px] flex w-full items-center border-b-4 border-black bg-white px-5">
@@ -22,7 +33,7 @@ export default function Nav({ showNavColumn, setshowNavColumn}) {
 
                 {/* title */}
                 <div className="flex items-center pl-5 sm:pl-0">
-                    <a href="#"
+                    <a href="/"
                         className="text-4xl font-heading m500:text-xl"
                     >
                         Francesco Penasa
@@ -32,10 +43,9 @@ export default function Nav({ showNavColumn, setshowNavColumn}) {
                 {/* pages */}
                 <div className='hidden lg:block'> {/* responsive */}
                     <div className=' flex items-center gap-10'>
-                        <Link className="text-xl font-base" to="/">Home</Link>
-                        <Link className="text-xl font-base" to="/about">About</Link>
-                        <a className="text-xl font-base" href="/projects">Projects</a>
-                        <a className="text-xl font-base" href="/learning">Learning</a>
+                        {getPages().map(page => (
+                            <Link className="text-xl font-base" to={page.path}>{page.name}</Link>
+                        ))}
                     </div>
                 </div>
 
@@ -62,26 +72,13 @@ export default function Nav({ showNavColumn, setshowNavColumn}) {
         <aside className="lg:hidden">
             <div className='fixed left-0 w-[50%] sm:w-[45%] md:w-[40%] bg-yellow-50 text-black h-full border-r border-r-gray-900'>
                 <ul className='pt-12 uppercase m-5 bg'>
-                    <Link className="text-xl w-full font-base p-1 items-center" to="/#">
-                        <li className='p-3 hover:bg-slate-600 hover:text-white hover:rounded '>
-                            Home
-                        </li>
-                    </Link>
-                    <Link className="text-xl w-full font-base p-1" to="/about">
-                        <li className='p-3 hover:bg-slate-600 hover:text-white hover:rounded '>
-                            About
-                        </li>
-                    </Link>
-                    <a className="text-xl w-full font-base p-1" href="/projects">
-                        <li className='p-3 hover:bg-slate-600 hover:text-white hover:rounded '>
-                            Projects
-                        </li>
-                    </a>
-                    <a className="text-xl w-full font-base p-1" href="/learning">
-                        <li className='p-3 hover:bg-slate-600 hover:text-white hover:rounded '>
-                            Learning
-                        </li>
-                    </a>
+                    {getPages().map(page => (
+                        <Link className="text-xl w-full font-base p-1" to={page.path}>
+                            <li className='p-3 hover:bg-slate-600 hover:text-white hover:rounded '>
+                                {page.name}
+                            </li>
+                        </Link>
+                    ))}
                 </ul>
             </div>
         </aside>
