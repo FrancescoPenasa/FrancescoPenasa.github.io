@@ -1,4 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
+import { v4 as uuidv4 } from 'uuid';
 
 export default function Nav({ showNavColumn, setshowNavColumn}) {   
     const handleNavColumn = () => {
@@ -7,16 +8,17 @@ export default function Nav({ showNavColumn, setshowNavColumn}) {
 
     function getPages() {
         return [
-            { name: "Home", path: "/" },
-            { name: "About", path: "/about" },
-            { name: "Resume / CV", path: "/resume" },
-            { name: "Projects", path: "/projects" },
-            { name: "Teaching", path: "/teaching" },
-            { name: "Contact", path: "/contact" }
+            {key:uuidv4(), name: "Home", path: "/" },
+            {key:uuidv4(),  name: "About", path: "/about" },
+            {key:uuidv4(),  name: "Resume / CV", path: "/resume" },
+            {key:uuidv4(),  name: "Projects", path: "/projects" },
+            {key:uuidv4(),  name: "Teaching", path: "/teaching" },
+            {key:uuidv4(),  name: "Contact", path: "/contact" }
         ]
     }
     
     return <>
+    <header>
         <nav className="fixed left-0 top-0 z-20 mx-auto h-[88px] flex w-full items-center border-b-4 border-black bg-white px-5">
             <div className="mx-auto flex w-[1300px] max-w-full items-center justify-between">
                 {/* nav button */}
@@ -44,7 +46,7 @@ export default function Nav({ showNavColumn, setshowNavColumn}) {
                 <div className='hidden lg:block'> {/* responsive */}
                     <div className=' flex items-center gap-10'>
                         {getPages().map(page => (
-                            <Link className="text-xl font-base" to={page.path}>{page.name}</Link>
+                            <Link key={page.key} className="text-xl font-base" to={page.path}>{page.name}</Link>
                         ))}
                     </div>
                 </div>
@@ -65,12 +67,13 @@ export default function Nav({ showNavColumn, setshowNavColumn}) {
                 </div>
             </div>
         </nav>
+        </header>
 
 
         {/* pages columns */}
         {showNavColumn ?   
         <aside className="lg:hidden">
-            <div className='fixed left-0 w-[50%] sm:w-[45%] md:w-[40%] bg-yellow-50 text-black h-full border-r border-r-gray-900'>
+            <div className='fixed left-0 w-[50%] sm:w-[45%] md:w-[40%] bg-slate-50 text-black h-full border-r border-r-gray-900'>
                 <ul className='pt-12 uppercase m-5 bg'>
                     {getPages().map(page => (
                         <Link className="text-xl w-full font-base p-1" to={page.path}>
