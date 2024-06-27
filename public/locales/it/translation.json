@@ -1,0 +1,39 @@
+{
+    "welcome": "Welcomeit",
+    "description": "This is a sample description.",
+    "presentation_line0": "Hello! I'm [Your Name], a passionate software developer and dedicated educator with a Master's degree in Computer Science. With a strong foundation in both theoretical and practical aspects of computing, I have been fortunate to work on a variety of challenging and exciting projects in the software development industry. My journey in tech has been driven by a love for solving complex problems and creating innovative solutions that make a difference.",
+    "presentation_line1": "In addition to my professional work, I have a deep commitment to teaching and sharing knowledge. I have had the pleasure of teaching computer science to students and professionals, including conducting specialized training sessions for technology laboratory personnel. My approach to teaching is hands-on and interactive, aimed at making complex concepts accessible and engaging for all learners.",
+    "presentation_line2": "On this website, you'll find a showcase of my professional projects, personal endeavors, and teaching experiences. I invite you to explore my work, learn about my journey, and get in touch if you're interested in collaboration or learning opportunities. Thank you for visiting!.",
+
+
+
+        
+    "teaching": "Teaching",
+
+    "macropad_title": "Macropad per tutti!",
+    "macropad_place": "Sunlab",
+    "macropad_time": "Maggio 2024",
+    "macropad_desc": "Assisted in the creation of a macropad from scratch, encompassing design, 3D modeling, soldering, and microcontroller programming. This comprehensive project fostered creativity, technical skills, and teamwork, equipping participants with valuable knowledge in design, engineering, and programming",
+
+    "macropad2_title": "Non solo Macropad!",
+    "macropad2_place": "Sunlab",
+    "macropad2_time": "Settembre 2024",
+    "macropad2_desc": "Sequel to 'Macropad per tutti,' this project expands on the initial macropad design to include additional features and functionalities. The macropad building path has been enhanced from the previous course, offering deeper insights.",
+
+    "sunlabFormazione_title": "Formazione Educatori",
+    "sunlabFormazione_place": "Sunlab",
+    "sunlabFormazione_time":  "Aprile 2024",
+    "sunlabFormazione_desc":  "Questo percorso di formazione introduce i partecipanti a un laboratorio ben attrezzato con strumenti per la saldatura a stagno e la stampa 3D, inclusi stampanti FDM e SLA. Il corso copre l'intero processo di stampa 3D, dalla progettazione iniziale e preparazione alla stampa finale. I partecipanti apprenderanno le varie tecniche e applicazioni della saldatura a stagno e acquisiranno esperienza pratica con entrambi i tipi di stampanti 3D. Durante l'intero percorso formativo vengono enfatizzate misure di sicurezza complete, garantendo un ambiente di apprendimento sicuro ed efficace. Questo programma fornisce agli individui competenze pratiche nelle tecnologie di fabbricazione moderna e nei protocolli di sicurezza.",
+    
+
+    "sunlabFormazione2_title": "Formazione Volontari",
+    "sunlabFormazione2_place": "Sunlab",
+    "sunlabFormazione2_time":  "Ottobre 2024",
+    "sunlabFormazione2_desc":  "Basato sul percorso di formazione per educatori dell'aprile 2024, questo corso sequel sfrutta le conoscenze e le competenze migliorate acquisite dall'esperienza precedente. I partecipanti approfondiranno tecniche avanzate, espandendo la propria expertise e applicando quanto appreso a progetti più complessi. Questa continuazione mira a consolidare la loro comprensione fondamentale introducendo nuovi concetti e metodologie per potenziare ulteriormente le loro capacità di insegnamento.",
+    
+    "goodbye": "GoodbyeEN"
+  }
+
+
+
+
