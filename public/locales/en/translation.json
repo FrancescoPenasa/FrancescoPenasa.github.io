@@ -1,39 +1,39 @@
 {
-    "welcome": "WelcomeEN",
-    "description": "This is a sample description.",
-    "home[0]": "I'm a Software Developer at Reply S.p.A.",
-    "home[1]": "I'm currently focused on expanding my experience design and developing high performing ",
-    "presentation_line[0]": "Hello! I'm Francesco Penasa, a passionate software developer and dedicated educator based in Trento, Italy.",
-    "presentation_line[1]": "My journey in tech began with a Master's degree in Computer Science and has been driven by a love for solving complex problems and creating innovative solutions.",
-    "presentation_line[2]": "In addition to my professional work, my approach to teaching is hands-on and interactive, aimed at making complex concepts accessible and engaging for all learners.",
-    "presentation_line[3]": "On this website, you'll find a showcase of my professional projects, personal endeavors, and teaching experiences. I invite you to explore my work, learn about my journey, and get in touch if you're interested in collaboration or learning opportunities.",
-    "presentation_line[4]": "Thank you for visiting!",
-    
-    "show_detail": "Show detail",
-    "teaching": "Teaching",
+  "welcome": "WelcomeEN",
+  "description": "This is a sample description.",
+  "home[0]": "I'm a Software Developer at Reply S.p.A.",
+  "home[1]": "I'm currently focused on expanding my experience design and developing high performing ",
+  "presentation_line[0]": "Hello! I'm Francesco Penasa, a passionate software developer and dedicated educator based in Trento, Italy.",
+  "presentation_line[1]": "My journey in tech began with a Master's degree in Computer Science and has been driven by a love for solving complex problems and creating innovative solutions.",
+  "presentation_line[2]": "In addition to my professional work, my approach to teaching is hands-on and interactive, aimed at making complex concepts accessible and engaging for all learners.",
+  "presentation_line[3]": "On this website, you'll find a showcase of my professional projects, personal endeavors, and teaching experiences. I invite you to explore my work, learn about my journey, and get in touch if you're interested in collaboration or learning opportunities.",
+  "presentation_line[4]": "Thank you for visiting!",
+  
+  "show_detail": "Show detail",
+  "teaching": "Teaching",
 
-    "macropad_title": "Macropad per tutti!",
-    "macropad_place": "Sunlab",
-    "macropad_time": "May 2024",
-    "macropad_desc": "Assisted in the creation of a macropad from scratch, encompassing design, 3D modeling, soldering, and microcontroller programming. This comprehensive project fostered creativity, technical skills, and teamwork, equipping participants with valuable knowledge in design, engineering, and programming",
+  "macropad_title": "Macropad per tutti!",
+  "macropad_place": "Sunlab",
+  "macropad_time": "May 2024",
+  "macropad_desc": "Assisted in the creation of a macropad from scratch, encompassing design, 3D modeling, soldering, and microcontroller programming. This comprehensive project fostered creativity, technical skills, and teamwork, equipping participants with valuable knowledge in design, engineering, and programming",
 
-    "macropad2_title": "Non solo Macropad!",
-    "macropad2_place": "Sunlab",
-    "macropad2_time": "September 2024",
-    "macropad2_desc": "Sequel to 'Macropad per tutti,' this project expands on the initial macropad design to include additional features and functionalities. The macropad building path has been enhanced from the previous course, offering deeper insights.",
+  "macropad2_title": "Non solo Macropad!",
+  "macropad2_place": "Sunlab",
+  "macropad2_time": "September 2024",
+  "macropad2_desc": "Sequel to 'Macropad per tutti,' this project expands on the initial macropad design to include additional features and functionalities. The macropad building path has been enhanced from the previous course, offering deeper insights.",
 
-    "sunlabFormazione_title": "Training Path: Educators",
-    "sunlabFormazione_place": "Sunlab",
-    "sunlabFormazione_time":  "April 2024",
-    "sunlabFormazione_desc":  "This training path introduces participants to a well-equipped lab featuring tools for tin soldering and 3D printing, including both FDM and SLA printers. The course covers the entire 3D printing process, from initial design and preparation to the final print. Participants will learn about the various techniques and applications of tin soldering and gain hands-on experience with both types of 3D printers. Comprehensive safety measures are emphasized throughout the training, ensuring a secure and effective learning environment. This program equips individuals with practical skills in modern fabrication technologies and safety protocols.",
-    
+  "sunlabFormazione_title": "Training Path: Educators",
+  "sunlabFormazione_place": "Sunlab",
+  "sunlabFormazione_time":  "April 2024",
+  "sunlabFormazione_desc":  "This training path introduces participants to a well-equipped lab featuring tools for tin soldering and 3D printing, including both FDM and SLA printers. The course covers the entire 3D printing process, from initial design and preparation to the final print. Participants will learn about the various techniques and applications of tin soldering and gain hands-on experience with both types of 3D printers. Comprehensive safety measures are emphasized throughout the training, ensuring a secure and effective learning environment. This program equips individuals with practical skills in modern fabrication technologies and safety protocols.",
+  
 
-    "sunlabFormazione2_title": "Training Path: Volunteers",
-    "sunlabFormazione2_place": "Sunlab",
-    "sunlabFormazione2_time":  "October 2024",
-    "sunlabFormazione2_desc":  "Building on the training path for educators from April 2024, this sequel course leverages the enhanced knowledge and skills gained from the previous experience. Participants will delve deeper into advanced techniques, expanding their expertise and applying what they have learned to more complex projects. This continuation aims to solidify their foundational understanding while introducing new concepts and methodologies to further enhance their instructional capabilities.",
-    
+  "sunlabFormazione2_title": "Training Path: Volunteers",
+  "sunlabFormazione2_place": "Sunlab",
+  "sunlabFormazione2_time":  "October 2024",
+  "sunlabFormazione2_desc":  "Building on the training path for educators from April 2024, this sequel course leverages the enhanced knowledge and skills gained from the previous experience. Participants will delve deeper into advanced techniques, expanding their expertise and applying what they have learned to more complex projects. This continuation aims to solidify their foundational understanding while introducing new concepts and methodologies to further enhance their instructional capabilities.",
+  
 
-    "goodbye": "GoodbyeEN"
+  "goodbye": "GoodbyeEN"
   }
   
