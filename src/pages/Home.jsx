@@ -18,6 +18,9 @@ export default function Home() {
     <>
       <Nav showNavColumn={showNavColumn} setshowNavColumn={setShowNavColumn} />
       <main className='align-middle justify-center text-slate-600' onClick={handleMainClick}>
+      <section className='bg-red-500'>
+        <h1> Website still under construction, be patient</h1>
+      </section>
       <section className="mb-8">
         <h2 className="text-3xl font-semibold mb-4">About Me</h2>
         <p className="text-lg mb-4">
