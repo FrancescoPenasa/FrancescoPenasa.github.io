@@ -44,6 +44,7 @@ export default function Teaching() {
       </div>
 
     },
+    /*
     { id: uuidv4() + "2", title: t('macropad2_title'), content: 
       
       <div className=' grid justify-items-center py-4'>
@@ -55,8 +56,8 @@ export default function Teaching() {
         </a> 
 
       </div>
-
      },
+     */
 
       { id: uuidv4() + "3", title: t('sunlabFormazione2_title'), content: 
         
