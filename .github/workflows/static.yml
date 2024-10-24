@@ -39,6 +39,13 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build
+      
+      # Add the step to copy ./test/index.html or the whole ./test directory
+      - name: Copy test folder to build folder
+        run: cp -r ./test ./dist/   # Adjust to './build' if necessary
+      - name: Copy test.html to build folder
+        run: cp test.html ./dist/   # If your build directory is named 'dist'. Use './build/' if it's 'build'
+        
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
