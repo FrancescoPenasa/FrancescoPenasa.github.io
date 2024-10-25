@@ -39,6 +39,11 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build
+
+      # digital card page
+      - name: Copy test folder to build folder
+        run: cp -r ./card ./dist/   # Adjust to './build' if 
+      
       
       # Add the step to copy ./test/index.html or the whole ./test directory
       - name: Copy test folder to build folder
