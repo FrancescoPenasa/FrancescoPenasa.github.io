@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import './index.css'
 import '../i18n'; // import the i18n configuration
 
@@ -18,7 +18,7 @@ import Cookies from "./pages/Cookies";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -30,7 +30,7 @@ export default function App() {
         <Route path="/cookies" element={<Cookies />} />
         {/* <Route path="*" element={<NoPage />} /> */}
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
