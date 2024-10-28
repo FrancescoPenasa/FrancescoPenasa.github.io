@@ -50,6 +50,8 @@ jobs:
         run: cp -r ./test ./dist/   # Adjust to './build' if necessary
       - name: Copy test.html to build folder
         run: cp test.html ./dist/   # If your build directory is named 'dist'. Use './build/' if it's 'build'
+      - name: Copy robots.txt to build folder
+        run: cp robots.txt ./dist/   # If your build directory is named 'dist'. Use './build/' if it's 'build'
         
       - name: Setup Pages
         uses: actions/configure-pages@v4
