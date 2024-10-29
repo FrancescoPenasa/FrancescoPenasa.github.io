@@ -1,0 +1,145 @@
+/* mobile first design */
+#root {
+  max-width: 420px;
+  text-align: center;
+  background-color: #1a1b20;
+  border-radius: 30px;
+  overflow: hidden; /* Clip content to fit rounded corners */
+
+  color: white;
+
+  /* background-color: var(--main-bg-color); */
+}
+
+body {
+  margin: 20px;
+  background-color: #1a1b20;
+  border-radius: 30px;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img.photo {
+  width: 100%;
+  /* height: auto; */
+  /* margin-bottom: 1rem; */
+}
+
+.name {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.job {
+  color: #f3bf99;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.site {
+  font-size: 12px;
+  font-weight: 400;
+  color: whitesmoke;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 2rem;
+}
+
+button > image {
+  width: 15px;
+  height: 15px;
+}
+
+button {
+  gap: 8px;
+  padding: 10px 30px;
+  margin: 0px;
+  border-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+  width:160px;
+}
+
+button.primary {
+  background-color: white;
+  color: #374151;
+}
+
+button.secondary {
+  background-color: #5093E2;
+  color: white;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: justify;
+  margin: 10px 36px 30px 36px;
+}
+
+.title {
+  font-size: 18px;
+margin: 5px 0px;
+}
+
+.content {
+  margin: 5px 0px;
+  font-size: 12px;
+}
+
+footer {
+  height: 64px;
+  width: 100%;
+  background-color: #161619;
+}
+
+.footer-social-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0; 
+}
+
+.footer-icon {
+  color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+}
+
+/* @keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* @media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+} */
+
+/* non mobile */
+@media screen and (min-width: 420px) {
+  #root {
+    padding: 4rem;
+  }
+}

@@ -42,7 +42,7 @@ jobs:
 
       # digital card page
       - name: Copy test folder to build folder
-        run: cp -r ./card ./dist/card   # Adjust to './build' if 
+        run: cp -r ./digital_business_card/dist ./dist/card 
       
       
       # Add the step to copy ./test/index.html or the whole ./test directory
