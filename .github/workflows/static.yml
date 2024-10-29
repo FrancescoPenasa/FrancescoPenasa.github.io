@@ -53,8 +53,13 @@ jobs:
       - name: Clean up old card build
         run: rm -rf ./dist/card/*
 
+      # Ensure the ./dist/card directory exists before copying files
+      - name: Create dist/card directory
+        run: mkdir -p ./dist/card
+
+      # digital card page new way
       - name: Copy digital_business_card build to GitHub Pages dist folder
-        run: cp -r ./digital_business_card/build/* ./dist/card
+        run: cp -r ./digital_business_card/dist/* ./dist/card
       
       # digital card page old way
       #- name: Copy test folder to build folder
